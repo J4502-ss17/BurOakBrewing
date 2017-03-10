@@ -7,17 +7,19 @@
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: #f1f1f1;
+    background-color: #0F132E;
 }
 .nav li {
   text-decoration: none;
+  background-color: #0F132E;
+  text-color: white;
   list-style-type: none;
   text-align: center;
 }
 
 .nav a {
     display: block;
-    color: #000;
+    color: white;
     padding: 8px 16px;
     text-decoration: none;
 }
