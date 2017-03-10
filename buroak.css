@@ -45,6 +45,10 @@ h3, h4 {
   margin: 0 auto;
   background-color: #0F132E;
 }
+#logo {
+  width: 100vw;
+  background-color: #0F132E;
+}
 
 /*navigation*/
 
