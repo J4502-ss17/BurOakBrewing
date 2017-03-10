@@ -13,6 +13,7 @@
 </head>
 
 <body>
+	<div id="container">
 
 
 	<img src="logo1.png" alt txt="Bur Oak Brewing" title="BurOakLogo" />
@@ -32,6 +33,8 @@
 <h3> h3 headline example</h3>
 <h4>headline h4</h4>
 
+</div>
+	<!-- end container div -->
 </body>
 
 </html>
