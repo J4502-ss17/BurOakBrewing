@@ -15,7 +15,7 @@ html {
 body {
   background-color: #aba394;
 }
-
+/* When we actually make hamburger menu: bar dark blue, when you click on menu button, menu is dark brown and hover is light brown or visa versa */ 
 #nav {
     list-style-type: none;
     padding: 0;
@@ -39,7 +39,7 @@ body {
 }
 
 #nav a:hover, a:active {
-    background-color: #555;
+    background-color: #5C5345;
     color: white;
 }
 
