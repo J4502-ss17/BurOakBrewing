@@ -16,6 +16,7 @@
 
 	<div class="logo">
 </div>
+	<img src="logo1.png" alt txt="Bur Oak Brewing" title="BurOakLogo" />
 	<ul class="nav">
 	  <li class= "nav"><a href="#home">Home</a></li>
 	  <li class= "nav"><a href="#news">Beers</a></li>
