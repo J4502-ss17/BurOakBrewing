@@ -43,3 +43,9 @@ h3, h4 {
   font-weight:400;
 }
 /*home*/
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  background-color: #0F132E;
+}
