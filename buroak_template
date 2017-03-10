@@ -14,7 +14,7 @@
 
 <body>
 
-	<div class="logo"> 
+	<div class="logo">
 </div>
 	<ul class="nav">
 	  <li class= "nav"><a href="#home">Home</a></li>
@@ -28,8 +28,10 @@
 <<<<<<< HEAD
 </ul>
 
-<h1> h1 and h2 Headline example</h1>
-<h3> h3 and h4 headline example</h3>
+<h1> h1 Headline example</h1>
+<h2>headline herey</h2>
+<h3> h3 headline example</h3>
+<h4>headline h4</h4>
 =======
 	</ul>
 >>>>>>> origin/master
