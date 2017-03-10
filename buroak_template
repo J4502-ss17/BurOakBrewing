@@ -13,6 +13,9 @@
 </head>
 
 <body>
+
+	<div class="logo"> 
+</div>
 	<ul class="nav">
 	  <li class= "nav"><a href="#home">Home</a></li>
 	  <li class= "nav"><a href="#news">Beers</a></li>
@@ -22,10 +25,14 @@
 		<li class= "nav"><a href="#contact">Shop</a></li>
 		<li class= "nav"><a href="#contact">Rent the Brewery</a></li>
 		<li class= "nav"><a href="#contact">Contact</a></li>
+<<<<<<< HEAD
 </ul>
 
 <h1> h1 and h2 Headline example</h1>
 <h3> h3 and h4 headline example</h3>
+=======
+	</ul>
+>>>>>>> origin/master
 
 
 </body>
