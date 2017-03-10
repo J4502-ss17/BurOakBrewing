@@ -34,11 +34,16 @@
 <h4>headline h4</h4>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 <p id="footer">Content copyright &copy; 2017 </p>
 
 
+=======
+</div>
+	<!-- end container div -->
+>>>>>>> origin/master
 =======
 </div>
 	<!-- end container div -->
