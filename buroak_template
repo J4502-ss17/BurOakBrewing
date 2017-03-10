@@ -13,7 +13,10 @@
 </head>
 
 <body>
+	<div id="container">
 
+
+<<<<<<< HEAD
 	<div class="logo">
 		<div id="logo">
 			<img class="logo" src="logo1.png" alt txt="Bur Oak Brewing" title="BurOakLogo" />
@@ -28,6 +31,18 @@
 		<li class= "nav"><a href="#contact">Shop</a></li>
 		<li class= "nav"><a href="#contact">Rent the Brewery</a></li>
 		<li class= "nav"><a href="#contact">Contact</a></li>
+=======
+	<img src="logo1.png" alt txt="Bur Oak Brewing" title="BurOakLogo" />
+	<ul id="nav">
+	  <li><a href="#home">Home</a></li>
+	  <li><a href="#news">Beers</a></li>
+	  <li><a href="#contact">Brewers</a></li>
+	  <li><a href="#about">Blog</a></li>
+		<li><a href="#contact">Events</a></li>
+		<li><a href="#contact">Shop</a></li>
+		<li><a href="#contact">Rent the Brewery</a></li>
+		<li><a href="#contact">Contact</a></li>
+>>>>>>> origin/master
 </ul>
 
 <h1> h1 Headline example</h1>
@@ -35,6 +50,21 @@
 <h3> h3 headline example</h3>
 <h4>headline h4</h4>
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+
+<p id="footer">Content copyright &copy; 2017 </p>
+
+
+=======
+</div>
+	<!-- end container div -->
+>>>>>>> origin/master
+=======
+</div>
+	<!-- end container div -->
+>>>>>>> origin/master
 </body>
 
 </html>
