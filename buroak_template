@@ -16,15 +16,15 @@
 
 
 	<img src="logo1.png" alt txt="Bur Oak Brewing" title="BurOakLogo" />
-	<ul class="nav">
-	  <li class= "nav"><a href="#home">Home</a></li>
-	  <li class= "nav"><a href="#news">Beers</a></li>
-	  <li class= "nav"><a href="#contact">Brewers</a></li>
-	  <li class= "nav"><a href="#about">Blog</a></li>
-		<li class= "nav"><a href="#contact">Events</a></li>
-		<li class= "nav"><a href="#contact">Shop</a></li>
-		<li class= "nav"><a href="#contact">Rent the Brewery</a></li>
-		<li class= "nav"><a href="#contact">Contact</a></li>
+	<ul id="nav">
+	  <li><a href="#home">Home</a></li>
+	  <li><a href="#news">Beers</a></li>
+	  <li><a href="#contact">Brewers</a></li>
+	  <li><a href="#about">Blog</a></li>
+		<li><a href="#contact">Events</a></li>
+		<li><a href="#contact">Shop</a></li>
+		<li><a href="#contact">Rent the Brewery</a></li>
+		<li><a href="#contact">Contact</a></li>
 </ul>
 
 <h1> h1 Headline example</h1>
