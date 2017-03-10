@@ -1,9 +1,11 @@
 /*all pages*/
-
-/*navigation*/
 html {
   font-size: 100%;
 }
+body {
+  background-color: #aba394;
+}
+
 #container {
   width: 100%;
   margin-top: 0;
@@ -11,36 +13,6 @@ html {
   margin-bottom: 0;
   margin-left: auto;
 	overflow: hidden;
-}
-body {
-  background-color: #aba394;
-}
-
-#nav {
-    list-style-type: none;
-    padding: 0;
-  }
-
-  #nav li {
-    padding: 0px;
-    margin:0;
-  }
-
-#nav a:link, #nav a:visited {
-  display: block;
-  text-decoration: none;
-  background-color: #0F132E;
-  color: white;
-  list-style-type: none;
-  font-family: 'Playfair Display', 'Times New Roman', serif;
-  font-weight:400;
-  text-align: center;
-  padding: 8px 16px;
-}
-
-#nav a:hover, a:active {
-    background-color: #555;
-    color: white;
 }
 
 p {
@@ -67,10 +39,37 @@ h3, h4 {
   padding: 8px 16px;
 
 }
-/*home*/
 
 .logo {
   display: block;
   margin: 0 auto;
   background-color: #0F132E;
+}
+
+/*navigation*/
+
+#nav {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  #nav li {
+    padding: 0px;
+    margin:0;
+  }
+
+#nav a:link, #nav a:visited {
+  display: block;
+  text-decoration: none;
+  background-color: #0F132E;
+  color: white;
+  list-style-type: none;
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  font-weight:400;
+  text-align: center;
+}
+
+#nav a:hover, a:active {
+    background-color: #555;
+    color: white;
 }
