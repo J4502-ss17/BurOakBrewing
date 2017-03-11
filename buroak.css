@@ -77,3 +77,13 @@ h3, h4 {
     background-color: #555;
     color: white;
 }
+
+/*Rent the Brewery*/
+
+.rent {
+  display: block;
+}
+#rent {
+  width: 100px;
+  height: auto;
+}
