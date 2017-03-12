@@ -91,6 +91,8 @@ h3, h4 {
 
 .rent {
   display: block;
+  margin: 0;
+  padding: 1%;
 }
 #rent {
   width: 100px;
