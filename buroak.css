@@ -4,10 +4,11 @@ html {
 }
 body {
   background-color: #aba394;
+    margin: 0;
 }
 
 #container {
-  width: 100%;
+  width: 95%;
   margin-top: 0;
   margin-right: auto;
   margin-bottom: 0;
@@ -54,9 +55,11 @@ h3, h4 {
 /*navigation*/
 
 #nav {
-    list-style-type: none;
+    width: 100vw;
     padding: 0;
-  }
+    margin: 0;
+	list-style-type: none;
+}
 
   #nav li {
     padding: 0px;
@@ -72,6 +75,7 @@ h3, h4 {
   font-family: 'Playfair Display', 'Times New Roman', serif;
   font-weight:400;
   text-align: center;
+  padding: 4px;
 }
 
 #nav a:hover, a:active {

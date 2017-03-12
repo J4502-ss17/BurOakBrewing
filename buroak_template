@@ -8,12 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Bur Oak Brewing</title>
 		<link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700|Playfair+Display:400,400i,900,900i" rel="stylesheet">
-    <link href="buroak.css" rel="stylesheet" />
+    <link href="home1.css" rel="stylesheet" />
 
 </head>
 
 <body>
-	<div id="container">
+
 
 		<div id="logo">
 			<img class="logo" src="logo1.png" alt txt="Bur Oak Brewing" title="BurOakLogo" />
@@ -29,18 +29,19 @@
 		<li><a href="#contact">Rent the Brewery</a></li>
 		<li><a href="#contact">Contact</a></li>
 </ul>
+<div id="container">
 
 <h1> h1 Headline example</h1>
 <h2>headline herey</h2>
 <h3> h3 headline example</h3>
 <h4>headline h4</h4>
 
-
+</div>
+	<!-- end container div -->
 
 <p id="footer">&copy; Bur Oak Brewing Company 2017 </p>
 
-</div>
-	<!-- end container div -->
+
 </body>
 
 </html>
