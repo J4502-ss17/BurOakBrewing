@@ -90,3 +90,14 @@ h3, h4 {
 }
 
 /*Brewers*/
+
+.brew {
+  display: block;
+
+
+}
+
+#brew {
+  width: 100px;
+  height: auto;
+}
