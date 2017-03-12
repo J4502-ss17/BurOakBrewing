@@ -34,9 +34,10 @@ h3, h4 {
   color: white;
   background-color: #0F132E;
   font-family: 'Playfair Display', 'Times New Roman', serif;
-  font-weight:400;
+  font-weight: 100;
   text-align: center;
   padding: 8px 16px;
+  font-size: 10px;
 
 }
 
@@ -87,3 +88,5 @@ h3, h4 {
   width: 100px;
   height: auto;
 }
+
+/*Brewers*/
