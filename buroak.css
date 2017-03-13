@@ -261,3 +261,20 @@ a:link {
 .h2color {
 	color: #0F132E;
 }
+.blogsubhead {
+	color: #0F132E;
+}
+p .readmore {
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  font-weight:400;
+  color: #5C5345;
+}
+h2 .backtoblogs {
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  font-weight:400;
+  color: #5C5345;
+}
+
+a .backtoblogs a:hover, a:active {
+  color: white;
+}
