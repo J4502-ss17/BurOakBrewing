@@ -11,7 +11,7 @@ body {
 }
 
 #container {
-  width: 95%;
+  width: 100%;
   margin-top: 0;
   margin-right: auto;
   margin-bottom: 0;
@@ -22,6 +22,8 @@ body {
 p {
   font-family: 'Noto Sans', Helvetica, sans-serif;
   text-indent: 25px;
+  width: 95%;
+  margin-left: 10px;
 }
 
 h1 {
@@ -29,11 +31,15 @@ h1 {
   font-weight:900;
   color: #0F132E;
   text-align: center;
+  width: 95%;
+  margin-left: 10px;
 }
 h2 {
   font-family: 'Playfair Display', 'Times New Roman', serif;
   font-weight:900;
   color: #5C5345;
+  width: 95%;
+  margin-left: 10px;
 }
 
 h3, h4 {
@@ -41,6 +47,8 @@ h3, h4 {
   font-weight:400;
   padding-left: 8px;
   padding-right: 8px;
+  width: 95%;
+  margin-left: 10px;
 }
 
 
@@ -218,7 +226,6 @@ a:link {
 
 .center {
   text-align: left;
-  padding: 10px;
 }
 #center {
   margin-left: auto;
@@ -283,4 +290,9 @@ text-indent: 0px;
 font-family: 'Playfair Display', 'Times New Roman', serif;
 font-weight:400;
 color: #5C5345;
+}
+
+.blogimages {
+  width: 100vw;
+  height: auto;
 }
