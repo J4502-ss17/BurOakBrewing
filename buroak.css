@@ -153,9 +153,10 @@ justify-content: space-evenly;
   width: auto;
   height:auto;
   vertical-align: middle;
-  padding-top: 30px;
-  margin-left: 25px;
+  margin-left: 5%;
+  margin-right: 5%;
   text-align: center;
+  color: 	#3B2416;
 }
 .uno {
     position: relative;
