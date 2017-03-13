@@ -274,7 +274,9 @@ h2 .backtoblogs {
   font-weight:400;
   color: #5C5345;
 }
-
-a .backtoblogs a:hover, a:active {
-  color: white;
+h2 .backtoblogs a:hover, a:active {
+  color: #E8A713;
+}
+h2 .backtoblogs a:visited, a:link {
+  color: #E8A713;
 }
