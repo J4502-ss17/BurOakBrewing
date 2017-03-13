@@ -172,6 +172,8 @@ h3, h4 {
 
 a:link {
   font-family: 'Noto Sans', Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 20px;
 }
 
 .center {
@@ -180,6 +182,19 @@ a:link {
 }
 #center {
   margin-left: auto;
+}
+
+#flyer p {
+  list-style-type: none;
+}
+
+#flyer a:link, a:visited {
+  text-decoration: none;
+  color: #FFFDDE;
+}
+
+#flyer a:hover, a:active{
+  color: #5C5345;
 }
 
 /*Brewers*/
