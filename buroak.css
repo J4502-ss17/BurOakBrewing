@@ -304,6 +304,13 @@ color: #5C5345;
   margin: 0 auto;
 
 }
+.smallblogimage2 {
+  height: auto;
+  display: block;
+  width: 60vw;
+  margin: 0 auto;
+
+}
 
 /* .headliney {
     font-family: 'Playfair Display', 'Times New Roman', serif;
