@@ -219,18 +219,27 @@ justify-content: space-evenly;
   height: auto;
 }
 
-/* a:link {
+.flyer a:link {
   font-family: 'Noto Sans', Helvetica, sans-serif;
   font-style: italic;
   font-size: 20px;
-} */
+}
 
 .center {
   text-align: left;
+  padding: 10px;
+  margin: auto 0;
 }
 #center {
   margin-left: auto;
+  width: 100vw;
 }
+
+.flyer a:link {
+  font-family: 'Noto Sans', Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 20px;
+} 
 
 #flyer p {
   list-style-type: none;
