@@ -313,6 +313,7 @@ p .readmore {
   font-weight:400;
   color: #5C5345;
 }
+
 p .readmore a:hover, a:active {
   font-family: 'Playfair Display', 'Times New Roman', serif;
   font-weight:400;
@@ -330,10 +331,10 @@ h2 .backtoblogs {
   color: #5C5345;
 }
 h2 .backtoblogs a:hover, a:active {
-  color: #E8A713;
+  color: #5C5345;
 }
 h2 .backtoblogs a:visited, a:link {
-  color: #E8A713;
+  color: #5C5345;
 }
 .posteddate {
 text-indent: 0px;
