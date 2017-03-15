@@ -312,6 +312,10 @@ justify-content: space-evenly;
   margin-bottom: 0px;
   margin-top: 8px;
 }
+#herop {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
 p .readmore {
   font-family: 'Playfair Display', 'Times New Roman', serif;
@@ -395,6 +399,7 @@ iframe {
 .heroname {
   margin-top: 5px;
   margin-left: 2px;
+  margin-bottom: 0;
 }
 .heroheadline  {
   margin-bottom: 5px;
