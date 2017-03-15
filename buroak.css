@@ -369,8 +369,15 @@ margin-bottom: 10px;
 .smallblogimage2 {
   height: auto;
   display: block;
-  width: 60vw;
+  width: 95vw;
   margin: 0 auto;
+}
+.smallblogimage3 {
+  height: auto;
+  display: block;
+  width: 95vw;
+  margin: 0 auto;
+  margin-bottom: 10px;
 }
 
 .heroesh2 {
@@ -397,9 +404,9 @@ iframe {
   width: 100vw;
 }
 .heroname {
-  margin-top: 5px;
+  margin-top: 0px;
   margin-left: 2px;
-  margin-bottom: 0;
+  margin-bottom: 5px;
 }
 .heroheadline  {
   margin-bottom: 5px;
