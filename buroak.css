@@ -380,6 +380,16 @@ color: #5C5345;
   text-decoration: none;
 }
 
+iframe {
+  width: 100vw;
+}
+.heroname {
+  margin-top: 5px;
+  margin-left: 2px;
+}
+.heroheadline  {
+  margin-bottom: 5px;
+}
 /* .headliney {
     font-family: 'Playfair Display', 'Times New Roman', serif;
     font-weight:900;
