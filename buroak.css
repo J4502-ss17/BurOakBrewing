@@ -358,7 +358,25 @@ color: #5C5345;
   display: block;
   width: 60vw;
   margin: 0 auto;
+}
 
+.heroesh2 {
+  text-align: center;
+  color: #0F132E;
+  margin-top: 5px;
+}
+
+.blogh1 {
+  margin-bottom: 0;
+}
+
+.blogheadline {
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  font-weight:900;
+  color: #5C5345;
+  width: 95%;
+  margin-left: 0;
+  text-decoration: none;
 }
 
 /* .headliney {
