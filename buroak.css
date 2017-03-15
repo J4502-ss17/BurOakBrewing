@@ -153,13 +153,14 @@ justify-content: space-evenly;
     top: 0px;
     left: 0;
     width: auto;
-    height:240px;
+    height:200px;
 }
 #missionwords
 {
   position: relative;
   width: auto;
   height:auto;
+  font-size: 16px;
   vertical-align: middle;
   margin-left: 5%;
   margin-right: 5%;
@@ -201,9 +202,11 @@ justify-content: space-evenly;
 .quatro {
   background-color: #E8A713;
   color: #0F132E;
-  font-size: 16px;
-  padding: 16px 32px;
+  font-size: 20px;
+  font-weight: 900;
+  padding: 60px 100px;
   font-family: 'Playfair Display', 'Times New Roman', serif;
+  text-decoration: none;
 }
 
 /*Rent the Brewery*/
