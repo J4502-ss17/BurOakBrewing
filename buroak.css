@@ -464,6 +464,8 @@ article, aside {
 */
 
 @media (min-width:800px) {
+
+  
   article {
   		flex: 3 0px;
   	}
