@@ -30,7 +30,36 @@
 </ul>
 
 	<div id="container">
-			<img class="gallery" src="images/place-setting.jpeg" alt text="Rent the Brewery" title="Rent Brewery" />
+		<div class="w3-content w3-display-container">
+			<img class="mySlides" style=100% src="images/RentBrewery/place-setting.jpeg" />
+			<img class="mySlides" style=100% src="images/RentBrewery/buroakrent.jpeg" />
+			<img class="mySlides" style=100% src="images/RentBrewery/buroakrent2.jpeg" />
+			<img class="mySlides" style=100% src="images/RentBrewery/buroakrent3.jpeg" />
+			<img class="mySlides" style=100% src="images/RentBrewery/buroakrent4.jpeg" />
+
+			<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+			<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+		</div>
+
+			<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
 
 	<h2 class="center">Taproom</h2>
 		<h3 class="center">Capacity: 30 seated; 40 standing</h3>
