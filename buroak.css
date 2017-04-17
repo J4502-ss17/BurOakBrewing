@@ -425,6 +425,15 @@ iframe {
 .heroheadline  {
   margin-bottom: 5px;
 }
+
+/* flexbox styles */
+article, aside {
+  flex: 1 100%;
+  padding: 10px;
+}
+
+
+
 /* .headliney {
     font-family: 'Playfair Display', 'Times New Roman', serif;
     font-weight:900;
@@ -453,3 +462,18 @@ iframe {
     list-style-type: none;
 }
 */
+
+@media (min-width:800px) {
+  article {
+  		flex: 3 0px;
+  	}
+    article {
+				order: 1;
+		}
+    aside {
+				flex: 1 auto;
+		}
+    .aside-1 {
+				order: 2;
+		}
+}
