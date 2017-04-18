@@ -474,6 +474,8 @@ article, aside, footer {
   				flex: 1 auto;
           display: flex;
           flex-wrap: wrap;
+          margin: auto;
+          width: 70%;
 
   		}
 
@@ -511,6 +513,12 @@ article, aside, footer {
 }
 .smallblogimage {
   width: 40%;
+  margin-left: 0;
+  display: block;
+}
+.smallblogimage3 { /*photo of michael the metalworker*/
+  height: 75%;
+  width: 75%;
   margin-left: 0;
   display: block;
 }
