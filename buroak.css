@@ -482,12 +482,20 @@ footer {
   text-align: center;
 }
 
-.flexcontainer {
+/* .flexcontainer {
    display: -webkit-flex;
    display: flex;
    -webkit-flex-direction: column;
    flex-direction: column;
+} */
+
+TABLE {
+  background-color: #FFFDDE;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+
 
 
 @media (min-width:800px) {
@@ -556,7 +564,9 @@ footer {
 /*end blog media query styles */
 
 /*events MQ styles */
-
+TABLE {
+  width: 75%;
+}
 
 
 /*end events MQ styles */
