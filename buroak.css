@@ -482,6 +482,14 @@ footer {
   text-align: center;
 }
 
+.flexcontainer {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+}
+
+
 @media (min-width:800px) {
 
 /*blog media query */
