@@ -477,9 +477,14 @@ footer {
   margin-bottom: -10px;
 }
 
+/*events styles */
+#month {
+  text-align: center;
+}
+
 @media (min-width:800px) {
 
-
+/*blog media query */
   aside {
   				flex: 1 auto;
           display: flex;
@@ -540,6 +545,15 @@ footer {
   width: 70%;
 }
 
+/*end blog media query styles */
+
+/*events MQ styles */
+
+
+
+/*end events MQ styles */
+
+
 #footer {
   color: white;
   background-color: #0F132E;
@@ -551,4 +565,4 @@ footer {
 }
 
 
-}
+} /* end media query tag */
