@@ -22,8 +22,8 @@ body {
 p {
   font-family: 'Noto Sans', Helvetica, sans-serif;
   text-indent: 25px;
-  width: 95%;
   margin-left: 10px;
+  max-width: 45em;
 }
 
 h1 {
@@ -427,7 +427,11 @@ iframe {
 }
 
 /* flexbox styles */
-article, aside {
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+}
+article, aside, footer {
   flex: 1 100%;
   padding: 10px;
 }
@@ -465,17 +469,51 @@ article, aside {
 
 @media (min-width:800px) {
 
-  
-  article {
+
+  aside {
+  				flex: 1 auto;
+          display: flex;
+          flex-wrap: wrap;
+
+  		}
+
+  		article {
   		flex: 3 0px;
   	}
-    article {
-				order: 1;
-		}
-    aside {
-				flex: 1 auto;
-		}
-    .aside-1 {
-				order: 2;
-		}
+
+  		.aside-1 {
+  				order: 2;
+  		}
+
+  		article {
+  				order: 1;
+  		}
+
+
+  		footer {
+  				order: 3;
+  		}
+
+      article {
+            display: inline;
+        }
+
+.blogimages {
+  width: 100%;
+  margin: auto;
+  display: block;
+}
+
+.smallblogimage2 {
+  width: 50%;
+  margin-left: 0;
+  display: block;
+}
+
+.centerblog {
+  margin: auto;
+  width: 70%;
+}
+
+
 }
