@@ -505,7 +505,12 @@ article, aside, footer {
 }
 
 .smallblogimage2 {
-  width: 50%;
+  width: 40%;
+  margin-left: 0;
+  display: block;
+}
+.smallblogimage {
+  width: 40%;
   margin-left: 0;
   display: block;
 }
