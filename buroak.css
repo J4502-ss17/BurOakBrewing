@@ -107,6 +107,13 @@ padding: 0;
 align-content: center;
 margin: auto;
 }
+#smaller {
+  width: 12%;
+  height: auto;
+  padding: 0;
+  margin-left: 15px;
+  top:0;
+}
 
 nav {
     margin: 0;
@@ -152,7 +159,7 @@ nav a {
     font-size: 1.9em;
     width: 2em;
     padding: 0;
-    margin: 0;
+    margin-right: 0;
 }
 
 nav ul {
