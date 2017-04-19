@@ -51,6 +51,9 @@ h3, h4 {
   margin-left: 10px;
 }
 
+#bg {
+  background-color: #0F132E;
+}
 
 #footer {
   color: white;
@@ -142,6 +145,7 @@ justify-content: space-evenly;
 #mission {
   background-color: #E8A713;
   display: flex;
+  flex: 1 auto;
   margin: 0;
   width: 100vw;
   border-style: none;
@@ -153,7 +157,7 @@ justify-content: space-evenly;
     top: 0px;
     left: 0;
     width: auto;
-    height:200px;
+    height:20%;
 }
 #missionwords
 {
@@ -177,36 +181,29 @@ justify-content: space-evenly;
   display: block;
   width: 100%;
   height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
 
+}
 .tres {
   transition: .5s ease;
-  opacity: 0;
+  opacity: .9;
   position: absolute;
   top: 50%;
   left: 50%;
+  padding: 0;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%)
 }
 
-.uno:hover .dos {
-  opacity: 0.3;
-}
-
-.uno:hover .tres {
-  opacity: 1;
-}
 
 .quatro {
   background-color: #E8A713;
   color: #0F132E;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 900;
-  padding: 60px 100px;
+  padding: 30px 80px;
   font-family: 'Playfair Display', 'Times New Roman', serif;
   text-decoration: none;
+  text-align: center;
 }
 
 /*Rent the Brewery*/
@@ -421,9 +418,10 @@ iframe {
   margin-top: 0px;
   margin-left: 2px;
   margin-bottom: 5px;
+  padding: 0;
 }
 .heroheadline  {
-  margin-bottom: 5px;
+  margin: 0px;
 }
 
 /* flexbox styles */
@@ -474,7 +472,7 @@ aside {
 footer {
   margin-left: -10px;
   margin-right: -10px;
-  margin-bottom: -10px;
+  margin-bottom: -10px
 }
 
 /*events styles */
@@ -505,9 +503,9 @@ TABLE {
   				flex: 1 auto;
           display: flex;
           flex-wrap: wrap;
-          margin: auto;
-          width: 70%;
-
+          flex-direction: row;
+          margin: 10px;
+          width: 50%;
   		}
 
   		article {
@@ -532,6 +530,64 @@ TABLE {
         }
 
 
+/*home page hover effects*/
+
+.uno {
+    position: relative;
+    width: 50%;
+}
+
+.dos {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.tres {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.uno:hover .dos {
+  opacity: 0.3;
+}
+
+.uno:hover .tres {
+  opacity: 1;
+}
+
+.quatro {
+  background-color: #E8A713;
+  color: #0F132E;
+  font-size: 20px;
+  font-weight: 900;
+  padding: 60px 100px;
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  text-decoration: none;
+} /*end home page hover effect*/
+
+#missionwords
+{
+  position: relative;
+  width: auto;
+  height:auto;
+  font-size: 25px;
+  vertical-align: middle;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 25px;
+  text-align: center;
+  color: 	#3B2416;
+}
+
 
 .blogimages {
   width: 100%;
@@ -550,9 +606,9 @@ TABLE {
   display: block;
 }
 .smallblogimage3 { /*photo of michael the metalworker*/
-  height: 70%;
-  width: 70%;
-  margin-left: 0;
+  width: 80%;
+  height: auto;
+  margin: 5px;
   display: block;
 }
 
@@ -578,8 +634,9 @@ TABLE {
   font-family: 'Playfair Display', 'Times New Roman', serif;
   font-weight: 100;
   text-align: center;
-  padding: 8px 16px;
   font-size: 10px;
+    width: 100vw;
+    margin: auto;
 }
 
 
