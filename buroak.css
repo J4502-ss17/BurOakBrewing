@@ -107,13 +107,7 @@ padding: 0;
 align-content: center;
 margin: auto;
 }
-#smaller {
-  width: 12%;
-  height: auto;
-  padding: 0;
-  margin-left: 15px;
-  top:0;
-}
+
 
 nav {
     margin: 0;
