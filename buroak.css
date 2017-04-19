@@ -311,6 +311,11 @@ a:link, a:visited {
    padding: 10px;
 }
 
+.rcorners2 {
+  width: 80% auto;
+  margin: 0 auto;
+}
+
 .button {
 
     border: none;
@@ -323,6 +328,56 @@ a:link, a:visited {
     font-size: 16px;
 }
 
+.w3-display-container {
+  width: 80% auto;
+  margin: 0 auto;
+}
+
+.mySlides {
+  width: 100%;
+}
+
+@media all and (min-width:800px) {
+
+  .rcorners2 {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    width: 50% auto;
+    margin: 0 auto;
+    justify-content: flex-end;
+  }
+
+  aside {
+  				flex: 1 auto;
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: row;
+          margin: 10px;
+          width: 50%;
+  		}
+
+  		article {
+  		flex: 3 0px;
+  	}
+
+
+  		article {
+  				order: 2;
+  		}
+
+
+  		footer {
+  				order: 3;
+  		}
+
+      article {
+        display: flex;
+        flex-flow: row;
+        flex-wrap: wrap;
+      }
+
+    }
 
 
 
@@ -731,3 +786,125 @@ TABLE {
 
 
 } /* end media query tag */
+
+
+
+
+
+
+
+/*Shop*/
+
+.shopbanner {
+  display: flex;
+  flex-flow: row;
+  background-color: #0F132E;
+  margin: 0;
+  font-family: 'Noto Sans', Helvetica, sans-serif;
+}
+
+.shopbanner a {
+  text-decoration: none;
+  color: white;
+}
+
+.shopbanner li:last-of-type a {
+  border-bottom: none;
+}
+
+.photoshop {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-wrap: wrap;
+  margin: 0;
+  width: 80% auto;
+  padding: 30px;
+}
+
+img {
+  display: flex;
+  border: none;
+  margin: 0;
+  width: 30%;
+  padding: 30px;
+}
+
+
+@media and all (min-width: 800px) {
+
+  .shopbanner {
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background: #0F132E;
+  }
+
+  .shopbanner a {
+    border: none;
+  }
+
+  .photoshop {
+    width: 100vw;
+
+  }
+
+  .shopbanner a:hover {
+    background: white;
+  }
+
+  aside {
+    flex: 1 auto;
+  }
+
+  .aside-1 {
+    order: -1;
+  }
+
+  .aside-2 {
+    order: 2;
+  }
+
+  .aside-3 {
+    order: 4;
+  }
+
+  .aside-4 {
+    order: 6;
+  }
+
+  article {
+          display: flex;
+          flex-flow: row;
+          flex-wrap: wrap;
+      }
+
+
+
+
+} /*end query*/
+
+@media all and (min-width: 600px) {
+
+
+
+
+}
+
+/*Tested out search bar*/.input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 100%;
+}

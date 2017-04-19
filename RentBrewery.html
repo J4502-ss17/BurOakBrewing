@@ -49,26 +49,7 @@
 			<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
 		</div>
 
-			<script>
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";
-  }
-  x[slideIndex-1].style.display = "block";
-}
-</script>
-
+	<article>
 	<h2 class="center">Taproom</h2>
 		<h3 class="center">Capacity: 30 seated; 40 standing</h3>
 			<p class="rent">Our taproom, is the perfect versatile space for a business meeting or small get together. The taproom has a private bathroom, multiple high top tables with seating and an available projector. The room has a refined rustic look, with a warm wood wall featuring a laser cut stainless steel depiction of our bur oak tree. The wooden bar stands at the back headlining our beers, including taproom exclusive brews. Windows from the taproom look into the brewery revealing the brew house and fermenting equipment that were made right here in Missouri.</p>
@@ -76,6 +57,7 @@ function showDivs(n) {
 		<h3 class="center">Capacity: 450 guests</h3>
 			<p class="rent">For a bigger event, the brewery and taproom are both available to rent. The brewery is a large, open space with unique industrial charm. Brewing equipment flanks the walls putting your experience in the heart of the brewery. The ceiling opens up to 24 feet high offering many lighting and drapery options for effect. The brewery, along with taproom, is an exemplary spot for wedding receptions, corporate events and other private functions. Based on your guest count we are able to position brewery inventory to make it more intimate by closing the space or keep it completely open to maximize the room. There is also an option for an outdoor area, ideal for games and just a sunny spot to mingle. Food truck access is available inside or outside the brewery. Ample parking for guests make their arrival easy.</p>
 	</div>
+</article>
 
 	<div id="flyer">
 		<p><a class="flyer" href="http://buroakbeer.com/wp-content/uploads/2016/11/Wedding-Rental-Information.pdf" target="_blank">Click here for more information on renting space for Weddings</a></p>
@@ -83,6 +65,7 @@ function showDivs(n) {
 	</div>
 
 <div id="rcorners2">
+
 
 	<form name="testForm" action="assignments.html" method="get">
 	      <h1>Contact Us</h1>
@@ -114,6 +97,7 @@ function showDivs(n) {
 
 	</div>
 	  </form>
+	
 <br><br>
 
 <div id="social">
@@ -123,6 +107,26 @@ function showDivs(n) {
 <img class="social" src="images/icon_twitter.svg" alt="twitter icon">
 <img class="social" src="images/icon_instagram.svg" alt="insta icon">
 </div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+var i;
+var x = document.getElementsByClassName("mySlides");
+if (n > x.length) {slideIndex = 1}
+if (n < 1) {slideIndex = x.length}
+for (i = 0; i < x.length; i++) {
+x[i].style.display = "none";
+}
+x[slideIndex-1].style.display = "block";
+}
+</script>
 
 </div>
 
