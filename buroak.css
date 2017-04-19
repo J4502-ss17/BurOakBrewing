@@ -208,7 +208,7 @@ nav ul {
   display: block;
   width: 100%;
   height: auto;
-
+  padding: 0;
 }
 .tres {
   transition: .5s ease;
