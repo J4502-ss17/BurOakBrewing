@@ -244,12 +244,11 @@ a:link, a:visited {
 /*Rent the Brewery*/
 
 .rent {
-  display: block;
-  width: 100vw;
-  margin: auto 0;
-  vertical-align: middle;
+  display: inline-block;
+  margin: 0;
   text-align: left;
-  padding: 10px
+  padding: 10px;
+  max-width: none;
 }
 
 
@@ -868,7 +867,6 @@ img {
           flex-flow: row;
           flex-wrap: wrap;
       }
-
 
 } /*end query*/
 
