@@ -40,6 +40,7 @@ h2 {
   color: #5C5345;
   width: 95%;
   margin-left: 10px;
+
 }
 
 h3, h4 {
@@ -99,34 +100,60 @@ justify-content: space-evenly;
 
 /*navigation*/
 
-#nav {
-    width: 100vw;
-    padding: 0;
-    margin: 0;
-	list-style-type: none;
+.smaller {
+width: 12%;
+height: auto;
 }
 
-  #nav li {
-    padding: 0px;
-    margin:0;
+nav {
+    margin: 0;
   }
+nav ul li {
+    display: block;
+      text-align: center;
+      width: 90vw;
+}
+
+nav a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    list-style: none;
+    padding: 10px 20px;
+}
 
 #nav a:link, #nav a:visited {
   display: block;
   text-decoration: none;
-  background-color: #0F132E;
   color: white;
   list-style-type: none;
-  font-family: 'Noto Sans', 'Helvetica', sans-serif;
-  font-weight:400;
-  font-style: normal;
+  font-family: 'Noto Sans', Helvetica, sans-serif;
   text-align: center;
   padding: 8px;
 }
 
-#nav a:hover, a:active {
-    background-color: #555;
+
+.navigation {
+    display: flex;
+    flex-flow: row;
+    background-color: #0F132E;
+    margin: 0;
+    padding-left: 5px;
+      text-align: center;
+}
+
+.menu-trigger {
+
     color: white;
+    order: 2;
+    font-size: 1.9em;
+    width: 2em;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul {
+    display: none;
 }
 
 /*home*/
@@ -204,6 +231,10 @@ justify-content: space-evenly;
   font-family: 'Playfair Display', 'Times New Roman', serif;
   text-decoration: none;
   text-align: center;
+}
+
+a:link, a:visited {
+  text-decoration: none;
 }
 
 /*Rent the Brewery*/
@@ -328,33 +359,32 @@ justify-content: space-evenly;
   margin-bottom: 10px;
 }
 
-p .readmore {
+.readmore {
   font-family: 'Playfair Display', 'Times New Roman', serif;
   font-weight:400;
   color: #5C5345;
   margin-top: 0;
 }
+.readmore  {
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  font-weight:400;
+  color: #5C5345;
+}
+.readmore {
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  font-weight:400;
+  color: #5C5345;
+}
 
-p .readmore a:hover, a:active {
+.backtoblogs {
   font-family: 'Playfair Display', 'Times New Roman', serif;
   font-weight:400;
   color: #5C5345;
 }
-p .readmore a:link, a:visited {
-  font-family: 'Playfair Display', 'Times New Roman', serif;
-  font-weight:400;
+.backtoblogs {
   color: #5C5345;
 }
-
-h2 .backtoblogs {
-  font-family: 'Playfair Display', 'Times New Roman', serif;
-  font-weight:400;
-  color: #5C5345;
-}
-h2 .backtoblogs a:hover, a:active {
-  color: #5C5345;
-}
-h2 .backtoblogs a:visited, a:link {
+.backtoblogs {
   color: #5C5345;
 }
 .posteddate {
@@ -387,7 +417,7 @@ margin-bottom: 10px;
   height: auto;
   display: block;
   width: 100vw;
-  margin: 0 auto;
+  margin-left: -10px;
   margin-bottom: 10px;
 }
 
@@ -416,13 +446,15 @@ iframe {
 }
 .heroname {
   margin-top: 0px;
-  margin-left: 2px;
+  margin-left: 10px;
   margin-bottom: 5px;
   padding: 0;
 }
 .heroheadline  {
-  margin: 0px;
+  padding-top: 50px;
+  margin-bottom: 5px;
 }
+
 
 /* flexbox styles */
 .wrapper {
@@ -432,6 +464,7 @@ iframe {
 article, aside {
   flex: 1 100%;
   padding: 0;
+
 }
 
 
@@ -506,6 +539,7 @@ TABLE {
           flex-direction: row;
           margin: 10px;
           width: 50%;
+          background-color: #FFFDEA;
   		}
 
   		article {
@@ -529,6 +563,41 @@ TABLE {
             display: inline;
         }
 
+
+
+.blogimages {
+  width: 100%;
+  margin: auto;
+  display: block;
+}
+
+.smallblogimage2 {
+  width: 40%;
+  margin-left: 0;
+  display: block;
+}
+.smallblogimage {
+  width: 40%;
+  margin-left: 0;
+  display: block;
+}
+.smallblogimage3 { /*photo of michael the metalworker*/
+  width: 80%;
+  height: auto;
+  display: block;
+}
+
+.centerblog {
+  margin: auto;
+  width: 70%;
+}
+
+.heroheadline  {
+  padding-top: 20px;
+  margin-bottom: 5px;
+}
+
+/*end blog media query styles */
 
 /*home page hover effects*/
 
@@ -588,6 +657,8 @@ TABLE {
   color: 	#3B2416;
 }
 
+<<<<<<< HEAD
+=======
 
 .blogimages {
   width: 100%;
@@ -615,10 +686,12 @@ TABLE {
 .centerblog {
   margin: auto;
   width: 70%;
+  text-decoration: none;
 }
 
 /*end blog media query styles */
 
+>>>>>>> origin/master
 /*events MQ styles */
 TABLE {
   width: 75%;
