@@ -539,7 +539,7 @@ TABLE {
           flex-direction: row;
           margin: 10px;
           width: 50%;
-          background-color: #FFFDEA;
+        /*  background-color: #FFFDEA; */
   		}
 
   		article {
