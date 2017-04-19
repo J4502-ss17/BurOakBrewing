@@ -103,6 +103,9 @@ justify-content: space-evenly;
 .smaller {
 width: 12%;
 height: auto;
+padding: 0;
+align-content: center;
+margin: auto;
 }
 
 nav {
@@ -273,23 +276,9 @@ a:link, a:visited {
   width: 100vw;
 }
 
-.flyer a:link {
-  font-family: 'Noto Sans', Helvetica, sans-serif;
-  font-style: italic;
-  font-size: 20px;
-}
-
-#flyer p {
-  list-style-type: none;
-}
-
-#flyer a:link, a:visited {
+.flyer {
+  list-style: none;
   text-decoration: none;
-  /* color: #FFFDDE; */
-  color: #5C5345 /*was having problem w headlines that are also links turning yellow, so i changed it to brown for now... */
-}
-
-#flyer a:hover, a:active{
   color: #5C5345;
 }
 
@@ -878,13 +867,9 @@ img {
       }
 
 
-
-
 } /*end query*/
 
 @media all and (min-width: 600px) {
-
-
 
 
 }
