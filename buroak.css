@@ -113,11 +113,11 @@ nav ul li {
       width: 90vw;
 }
 
-
 nav a {
     color: white;
     display: block;
     text-decoration: none;
+    list-style: none;
     padding: 10px 20px;
 }
 
@@ -142,7 +142,7 @@ nav a {
 }
 
 .menu-trigger {
-  display: inline-block;
+
     color: white;
     order: 2;
     font-size: 1.9em;
@@ -230,6 +230,10 @@ nav ul {
   font-family: 'Playfair Display', 'Times New Roman', serif;
   text-decoration: none;
   text-align: center;
+}
+
+a:link, a:visited {
+  text-decoration: none;
 }
 
 /*Rent the Brewery*/
