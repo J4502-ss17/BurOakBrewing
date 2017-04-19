@@ -285,7 +285,8 @@ a:link, a:visited {
 
 #flyer a:link, a:visited {
   text-decoration: none;
-  color: #FFFDDE;
+  /* color: #FFFDDE; */
+  color: #5C5345 /*was having problem w headlines that are also links turning yellow, so i changed it to brown for now... */
 }
 
 #flyer a:hover, a:active{
@@ -453,6 +454,7 @@ iframe {
 .heroheadline  {
   padding-top: 50px;
   margin-bottom: 5px;
+  color: #5C5345;
 }
 
 
@@ -551,9 +553,11 @@ TD {
           display: flex;
           flex-wrap: wrap;
           flex-direction: row;
-          margin: 10px;
-          width: 50%;
-        /*  background-color: #FFFDEA; */
+          margin-left: 0;
+          padding-right: 20px;
+          padding-left: 20px;
+          width: 15%; /*how big the heroes aside is... */
+        background-color: #FFFDEA;
   		}
 
   		article {
@@ -599,6 +603,8 @@ TD {
   width: 80%;
   height: auto;
   display: block;
+  padding: 0;
+  margin: 0;
 }
 
 .centerblog {
