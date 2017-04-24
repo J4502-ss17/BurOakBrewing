@@ -463,7 +463,20 @@ margin-bottom: 10px;
   width: 100vw;
   margin: 0 auto;
 }
+.smallblogimage22 {
+  height: auto;
+  display: block;
+  width: 100vw;
+  margin: 0 auto;
+}
 .smallblogimage3 {
+  height: auto;
+  display: block;
+  width: 100vw;
+  margin-left: -10px;
+  margin-bottom: 10px;
+}
+.smallblogimage33 {
   height: auto;
   display: block;
   width: 100vw;
@@ -660,7 +673,14 @@ TD {
   margin-left: 0;
   display: block;
 }
-.smallblogimage3 { /*photo of michael the metalworker*/
+.smallblogimage3 {
+  width: 80%;
+  height: auto;
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+.smallblogimage33 { /*photo of michael the metalworker*/
   width: 80%;
   height: auto;
   display: block;
@@ -682,8 +702,110 @@ TD {
   color: #aba394;
 }
 
+
+
 /*end blog media query styles */
 
+
+
+
+.blogimages {
+  width: 100%;
+  margin: auto;
+  display: block;
+}
+
+.smallblogimage2 {
+  width: 40%;
+  margin-left: 0;
+  display: block;
+}
+.smallblogimage {
+  width: 40%;
+  margin-left: 0;
+  display: block;
+}
+.smallblogimage3 { /*photo of michael the metalworker*/
+  width: 80%;
+  height: auto;
+  margin: 5px;
+  display: block;
+}
+
+.centerblog {
+  margin: auto;
+  width: 90%;
+  text-decoration: none;
+}
+
+.smallblogimage22 {
+  width: 70%;
+  margin: auto;
+  display: block;
+}
+
+/*end blog media query styles */
+
+/*events MQ styles */
+TABLE {
+  width: 55%;
+}
+
+
+/*end events MQ styles */
+
+
+#footer {
+  color: white;
+  background-color: #0F132E;
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  font-weight: 100;
+  text-align: center;
+  font-size: 10px;
+    width: 100vw;
+    margin: auto;
+}
+
+
+
+
+<<<<<<< Updated upstream
+/*brewers */
+
+.brew{
+  width: 80%;
+
+}
+
+#brewers1{
+  row: wrap;
+  display: flex;
+}
+
+
+#brewers2 {
+  flex: 50%;
+
+}
+/* end brewers */
+
+/* contact */
+
+#conact1 {
+  row: wrap;
+  display: flex;
+
+}
+
+#contact2 {
+  flex: 50%
+}
+
+
+/* end media query tag */
+}
+
+=======
 /*home page hover effects*/
 
 .uno {
@@ -699,6 +821,7 @@ TD {
   transition: .5s ease;
   backface-visibility: hidden;
 }
+>>>>>>> Stashed changes
 
 .tres {
   transition: .5s ease;
@@ -741,98 +864,6 @@ TD {
   text-align: center;
   color: 	#3B2416;
 }
-
-
-.blogimages {
-  width: 100%;
-  margin: auto;
-  display: block;
-}
-
-.smallblogimage2 {
-  width: 40%;
-  margin-left: 0;
-  display: block;
-}
-.smallblogimage {
-  width: 40%;
-  margin-left: 0;
-  display: block;
-}
-.smallblogimage3 { /*photo of michael the metalworker*/
-  width: 80%;
-  height: auto;
-  margin: 5px;
-  display: block;
-}
-
-.centerblog {
-  margin: auto;
-  width: 90%;
-  text-decoration: none;
-}
-
-/*end blog media query styles */
-
-/*events MQ styles */
-TABLE {
-  width: 55%;
-}
-
-
-/*end events MQ styles */
-
-
-#footer {
-  color: white;
-  background-color: #0F132E;
-  font-family: 'Playfair Display', 'Times New Roman', serif;
-  font-weight: 100;
-  text-align: center;
-  font-size: 10px;
-    width: 100vw;
-    margin: auto;
-}
-
-
-
-
-/*brewers */
-
-.brew{
-  width: 80%;
-
-}
-
-#brewers1{
-  row: wrap;
-  display: flex;
-}
-
-
-#brewers2 {
-  flex: 50%;
-
-}
-/* end brewers */
-
-/* contact */
-
-#conact1 {
-  row: wrap;
-  display: flex;
-
-}
-
-#contact2 {
-  flex: 50%
-}
-
-
-/* end media query tag */
-}
-
-
 
 
 
