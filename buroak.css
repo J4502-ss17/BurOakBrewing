@@ -562,6 +562,15 @@ footer {
 #month {
   text-align: center;
 }
+#month2 {
+  text-align: center;
+  margin: 6px;
+}
+#month3 {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
 
 /* .flexcontainer {
    display: -webkit-flex;
@@ -763,7 +772,7 @@ TD {
 
 /*events MQ styles */
 TABLE {
-  width: 75%;
+  width: 55%;
 }
 
 
