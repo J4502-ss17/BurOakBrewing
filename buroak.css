@@ -373,7 +373,7 @@ a:link, a:visited {
 
 .brew {
   display: block;
-  width: 90vw;
+  width: 100vw;
   margin: 0;
   padding: 0;
   border-style: solid;
@@ -384,7 +384,7 @@ a:link, a:visited {
 }
 
 #brew {
-  width: 95%;
+  width: 100%;
   text-align: left;
 
 }
@@ -795,8 +795,42 @@ TABLE {
 }
 
 
-} /* end media query tag */
 
+
+/*brewers */
+
+.brew{
+  width: 80%;
+
+}
+
+#brewers1{
+  row: wrap;
+  display: flex;
+}
+
+
+#brewers2 {
+  flex: 50%;
+
+}
+/* end brewers */
+
+/* contact */
+
+#conact1 {
+  row: wrap;
+  display: flex;
+
+}
+
+#contact2 {
+  flex: 50%
+}
+
+
+/* end media query tag */
+}
 
 
 
