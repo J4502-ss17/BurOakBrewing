@@ -463,20 +463,7 @@ margin-bottom: 10px;
   width: 100vw;
   margin: 0 auto;
 }
-.smallblogimage22 {
-  height: auto;
-  display: block;
-  width: 100vw;
-  margin: 0 auto;
-}
 .smallblogimage3 {
-  height: auto;
-  display: block;
-  width: 100vw;
-  margin-left: -10px;
-  margin-bottom: 10px;
-}
-.smallblogimage33 {
   height: auto;
   display: block;
   width: 100vw;
@@ -667,6 +654,7 @@ TD {
   height: auto;
   margin: 5px;
   display: block;
+  padding: 0;
 }
 .smallblogimage2 {
   width: 40%;
