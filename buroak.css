@@ -662,35 +662,22 @@ TD {
   margin: auto;
   display: block;
 }
-
+.smallblogimage3 { /*photo of michael the metalworker*/
+  width: 80%;
+  height: auto;
+  margin: 5px;
+  display: block;
+}
 .smallblogimage2 {
   width: 40%;
   margin-left: 0;
   display: block;
 }
+
 .smallblogimage {
   width: 40%;
   margin-left: 0;
   display: block;
-}
-.smallblogimage3 {
-  width: 80%;
-  height: auto;
-  display: block;
-  padding: 0;
-  margin: 0;
-}
-.smallblogimage33 { /*photo of michael the metalworker*/
-  width: 80%;
-  height: auto;
-  display: block;
-  padding: 0;
-  margin: 0;
-}
-
-.centerblog {
-  margin: auto;
-  width: 90%;
 }
 
 .heroheadline  {
@@ -702,46 +689,10 @@ TD {
   color: #aba394;
 }
 
-
-
-/*end blog media query styles */
-
-
-
-
-.blogimages {
-  width: 100%;
-  margin: auto;
-  display: block;
-}
-
-.smallblogimage2 {
-  width: 40%;
-  margin-left: 0;
-  display: block;
-}
-.smallblogimage {
-  width: 40%;
-  margin-left: 0;
-  display: block;
-}
-.smallblogimage3 { /*photo of michael the metalworker*/
-  width: 80%;
-  height: auto;
-  margin: 5px;
-  display: block;
-}
-
 .centerblog {
   margin: auto;
   width: 90%;
   text-decoration: none;
-}
-
-.smallblogimage22 {
-  width: 70%;
-  margin: auto;
-  display: block;
 }
 
 /*end blog media query styles */
