@@ -699,9 +699,10 @@ TD {
 }
 
 .heropage {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+  margin-left: 12%
+}
+#herop {
+margin-left: 12%  
 }
 
 /*end blog media query styles */
