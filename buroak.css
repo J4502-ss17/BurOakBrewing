@@ -324,8 +324,9 @@ a:link, a:visited {
 
 .mySlides {
   width: 100%;
-  padding: 0;
 }
+/*-----------above this is mobile and general css-------------*/
+/*----below is for over 800px-----*/
 
 @media all and (min-width:800px) {
 
@@ -366,27 +367,31 @@ a:link, a:visited {
         flex-wrap: wrap;
       }
 
-    }
-
-
+    } /*end media query*/
 
 /*Brewers*/
 
 .brew {
   display: block;
-  width: 90vw;
+  width: 100vw;
   margin: 0;
   padding: 0;
   border-style: solid;
   border-width: thin;
+  align-items: center;
 
 
 }
 
 #brew {
-  width: 95%;
+  width: 100%;
+  text-align: left;
 
 }
+
+
+
+
 
 /* blog */
 .h2color {
@@ -459,6 +464,14 @@ margin-bottom: 10px;
   margin: 0 auto;
 }
 .smallblogimage3 {
+  height: auto;
+  display: block;
+  width: 100vw;
+  margin-left: -10px;
+  margin-bottom: 10px;
+}
+
+.smallblogimage22 {
   height: auto;
   display: block;
   width: 100vw;
@@ -557,6 +570,15 @@ footer {
 #month {
   text-align: center;
 }
+#month2 {
+  text-align: center;
+  margin: 6px;
+}
+#month3 {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
 
 /* .flexcontainer {
    display: -webkit-flex;
@@ -587,10 +609,10 @@ TD {
 
 
 
-
+/*-------is this media query redundant?------*/
 @media (min-width:800px) {
 
-/*blog media query */
+/*blog */
   aside {
   				flex: 1 auto;
           display: flex;
@@ -635,28 +657,30 @@ TD {
   margin: auto;
   display: block;
 }
-
+.smallblogimage3 { /*photo of michael the metalworker*/
+  width: 80%;
+  height: auto;
+  margin: 5px;
+  display: block;
+  padding: 0;
+}
 .smallblogimage2 {
   width: 40%;
   margin-left: 0;
   display: block;
 }
+
+.smallblogimage22 { /*michael */
+  width: 80%;
+  margin: auto;
+  display: block;
+}
+
+
 .smallblogimage {
   width: 40%;
   margin-left: 0;
   display: block;
-}
-.smallblogimage3 { /*photo of michael the metalworker*/
-  width: 80%;
-  height: auto;
-  display: block;
-  padding: 0;
-  margin: 0;
-}
-
-.centerblog {
-  margin: auto;
-  width: 90%;
 }
 
 .heroheadline  {
@@ -664,8 +688,85 @@ TD {
   margin-bottom: 5px;
 }
 
+.heroesh2 {
+  color: #aba394;
+}
+
+.centerblog {
+  margin: auto;
+  width: 90%;
+  text-decoration: none;
+}
+
+.heropage {
+  margin-left: 12%
+}
+#herop {
+margin-left: 12%  
+}
+
 /*end blog media query styles */
 
+/*events MQ styles */
+TABLE {
+  width: 55%;
+}
+
+
+/*end events MQ styles */
+
+
+#footer {
+  color: white;
+  background-color: #0F132E;
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  font-weight: 100;
+  text-align: center;
+  font-size: 10px;
+    width: 100vw;
+    margin: auto;
+}
+
+
+
+
+<<<<<<< Updated upstream
+/*brewers */
+
+.brew{
+  width: 80%;
+
+}
+
+#brewers1{
+  row: wrap;
+  display: flex;
+}
+
+
+#brewers2 {
+  flex: 50%;
+
+}
+/* end brewers */
+
+/* contact */
+
+#conact1 {
+  row: wrap;
+  display: flex;
+
+}
+
+#contact2 {
+  flex: 50%
+}
+
+
+/* end media query tag */
+}
+
+=======
 /*home page hover effects*/
 
 .uno {
@@ -681,6 +782,7 @@ TD {
   transition: .5s ease;
   backface-visibility: hidden;
 }
+>>>>>>> Stashed changes
 
 .tres {
   transition: .5s ease;
@@ -725,6 +827,7 @@ TD {
 }
 
 
+<<<<<<< HEAD
 .blogimages {
   width: 100%;
   margin: auto;
@@ -775,14 +878,8 @@ TABLE {
     width: 100vw;
     margin: auto;
 }
-
-
-} /* end media query tag */
-
-
-
-
-
+=======
+>>>>>>> origin/master
 
 
 /*Shop*/
@@ -820,8 +917,45 @@ img {
   width: 30%;
   padding: 30px;
 }
+/*beer*/
 
+#beeers {
+  padding-top: 0;
+  margin-top: 0;
+  height: 550px;
+  width: 100%;
+  background-image: url("images/bgbeers2.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  }
+  #beeer-head {
+    font-size: 1.9em;
+    align-content: center;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 3px;
+}
+#beeer-head h1 {
+  background: #E8A713;
+  color: ;
+  width: 60%;
+  margin-left: auto;
+    margin-right: auto;
+    box-shadow: -6px 6px 12px black;
+}
+  #beeer-body {
+    align-items: center;
+    text-align: center;
+  }
+  .beeer-pic {
+    display: inline-block;
+    width:17%;
+    padding: 5px;
+  } /*end beer pages stuff*/
 
+} /*end media query*/
+
+  /*----------is this media query redundant?------------*/
 @media and all (min-width: 800px) {
 
   .shopbanner {
@@ -869,29 +1003,7 @@ img {
           flex-wrap: wrap;
       }
 
+
+
+
 } /*end query*/
-
-@media all and (min-width: 600px) {
-
-
-}
-
-/*Tested out search bar*/.input[type=text] {
-    width: 130px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-    background-color: white;
-    background-image: url('searchicon.png');
-    background-position: 10px 10px;
-    background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
-}
-
-/* When the input field gets focus, change its width to 100% */
-input[type=text]:focus {
-    width: 100%;
-}
