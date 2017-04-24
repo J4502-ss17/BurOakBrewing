@@ -378,6 +378,7 @@ a:link, a:visited {
   padding: 0;
   border-style: solid;
   border-width: thin;
+  align-items: center;
 
 
 }
