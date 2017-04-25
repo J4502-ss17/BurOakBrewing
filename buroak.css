@@ -376,14 +376,29 @@ a:link, a:visited {
   border-style: solid;
   border-width: thin;
   align-items: center;
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> origin/master
 }
 
 #brew {
   width: 100%;
   text-align: left;
+<<<<<<< HEAD
 }
 
 
+=======
+
+}
+
+
+
+
+
+>>>>>>> origin/master
 /* blog */
 .h2color {
 	color: #0F132E;
@@ -642,6 +657,7 @@ TD {
   text-decoration: none;
 }
 
+<<<<<<< HEAD
   .heropage {
     margin-left: 12%;
   }
@@ -679,6 +695,13 @@ TD {
   flex-wrap: wrap;
   display: flex;
 
+=======
+.heropage {
+  margin-left: 12%
+}
+#herop {
+margin-left: 12%  
+>>>>>>> origin/master
 }
 
 #contact2 {
@@ -687,6 +710,66 @@ TD {
  /* end contact*/
 
 
+/*events MQ styles */
+TABLE {
+  width: 55%;
+}
+
+
+/*end events MQ styles */
+
+
+#footer {
+  color: white;
+  background-color: #0F132E;
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  font-weight: 100;
+  text-align: center;
+  font-size: 10px;
+    width: 100vw;
+    margin: auto;
+}
+
+
+
+
+<<<<<<< Updated upstream
+/*brewers */
+
+.brew{
+  width: 80%;
+
+}
+
+#brewers1{
+  row: wrap;
+  display: flex;
+}
+
+
+#brewers2 {
+  flex: 50%;
+
+}
+/* end brewers */
+
+/* contact */
+
+#conact1 {
+  row: wrap;
+  display: flex;
+
+}
+
+#contact2 {
+  flex: 50%
+}
+
+
+/* end media query tag */
+}
+
+=======
 /*home page hover effects*/
 
 .uno {
@@ -702,6 +785,7 @@ TD {
   transition: .5s ease;
   backface-visibility: hidden;
 }
+>>>>>>> Stashed changes
 
 .tres {
   transition: .5s ease;
@@ -746,6 +830,7 @@ TD {
 }
 /*end home page*/
 
+<<<<<<< HEAD
 /* footer ----------------*/
 #footer {
   color: white;
@@ -759,6 +844,12 @@ TD {
 }
 
 /*Shop -----------------------*/
+=======
+
+
+
+/*Shop*/
+>>>>>>> origin/master
 
 .shopbanner {
   display: flex;
