@@ -338,8 +338,8 @@ a:link, a:visited {
     margin: 0 auto;
     justify-content: flex-end;
   }
-
-  aside {
+/*general flexbox stuff*/
+    aside {
   				flex: 1 auto;
           display: flex;
           flex-wrap: wrap;
@@ -366,9 +366,6 @@ a:link, a:visited {
         flex-flow: row;
         flex-wrap: wrap;
       }
-
-    } /*end media query*/
-
 /*Brewers*/
 
 .brew {
@@ -379,18 +376,12 @@ a:link, a:visited {
   border-style: solid;
   border-width: thin;
   align-items: center;
-
-
 }
 
 #brew {
   width: 100%;
   text-align: left;
-
 }
-
-
-
 
 
 /* blog */
@@ -525,37 +516,6 @@ article, aside {
   padding: 0;
 }
 
-
-
-/* .headliney {
-    font-family: 'Playfair Display', 'Times New Roman', serif;
-    font-weight:900;
-    color: #5C5345;
-    width: 95%;
-    margin-left: 10px;
-    text-decoration: none;
-    list-style-type: none;
-}
-.headliney a:visted, a:link {
-    font-family: 'Playfair Display', 'Times New Roman', serif;
-    font-weight:900;
-    color: #5C5345;
-    width: 95%;
-    margin-left: 10px;
-    text-decoration: none;
-    list-style-type: none;
-}
-.headliney a:hover, a:active {
-    font-family: 'Playfair Display', 'Times New Roman', serif;
-    font-weight:900;
-    color: #5C5345;
-    width: 95%;
-    margin-left: 10px;
-    text-decoration: none;
-    list-style-type: none;
-}
-*/
-
 aside {
   margin-left: 0;
 }
@@ -565,6 +525,28 @@ footer {
   margin-right: -10px;
   margin-bottom: -10px
 }
+
+  .aside-1 {
+    order: -1;
+  }
+
+  .aside-2 {
+    order: 2;
+  }
+
+  .aside-3 {
+    order: 4;
+  }
+
+  .aside-4 {
+    order: 6;
+  }
+
+  article {
+          display: flex;
+          flex-flow: row;
+          flex-wrap: wrap;
+      }
 
 /*events styles */
 #month {
@@ -580,12 +562,6 @@ footer {
   margin-top: 0;
 }
 
-/* .flexcontainer {
-   display: -webkit-flex;
-   display: flex;
-   -webkit-flex-direction: column;
-   flex-direction: column;
-} */
 
 TABLE {
   background-color: #FFFDDE;
@@ -607,25 +583,7 @@ TD {
   margin: 5px;
 }
 
-
-
-/*-------is this media query redundant?------*/
-@media (min-width:800px) {
-
-/*blog */
-  aside {
-  				flex: 1 auto;
-          display: flex;
-          flex-wrap: wrap;
-          flex-direction: row;
-          margin-left: 0;
-          padding: 0 20px;
-        background-color: #FFFDEA;
-  		}
-
-  		article {
-  		flex: 3 0px;
-  	}
+/*blog-------------------*/
 
   		.aside-1 {
   				order: 2;
@@ -633,24 +591,10 @@ TD {
           padding: 0 15px;
   		}
 
-  		article {
-  				order: 1;
-  		}
-
-
-  		footer {
-  				order: 3;
-  		}
-
-      article {
-            display: inline;
-        }
-
 #fitme {
   width: 100%;
   height: 400px;
 }
-
 
 .blogimages {
   width: 100%;
@@ -698,40 +642,18 @@ TD {
   text-decoration: none;
 }
 
-.heropage {
-  margin-left: 12%
-}
-#herop {
-margin-left: 12%  
-}
-
-/*end blog media query styles */
-
-/*events MQ styles */
-TABLE {
-  width: 55%;
-}
+  .heropage {
+    margin-left: 12%;
+  }
+  #herop {
+  margin-left: 12%;
+  }
+  TABLE {
+    width: 75%;
+  } /*end blog*/
 
 
-/*end events MQ styles */
-
-
-#footer {
-  color: white;
-  background-color: #0F132E;
-  font-family: 'Playfair Display', 'Times New Roman', serif;
-  font-weight: 100;
-  text-align: center;
-  font-size: 10px;
-    width: 100vw;
-    margin: auto;
-}
-
-
-
-
-<<<<<<< Updated upstream
-/*brewers */
+/*brewers -----------------------*/
 
 .brew{
   width: 80%;
@@ -750,23 +672,21 @@ TABLE {
 }
 /* end brewers */
 
-/* contact */
+/* contact------------------- */
 
 #conact1 {
-  row: wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
   display: flex;
 
 }
 
 #contact2 {
-  flex: 50%
+  flex: 50%;
 }
+ /* end contact*/
 
 
-/* end media query tag */
-}
-
-=======
 /*home page hover effects*/
 
 .uno {
@@ -782,7 +702,6 @@ TABLE {
   transition: .5s ease;
   backface-visibility: hidden;
 }
->>>>>>> Stashed changes
 
 .tres {
   transition: .5s ease;
@@ -810,7 +729,7 @@ TABLE {
   padding: 60px 100px;
   font-family: 'Playfair Display', 'Times New Roman', serif;
   text-decoration: none;
-} /*end home page hover effect*/
+}
 
 #missionwords
 {
@@ -825,49 +744,9 @@ TABLE {
   text-align: center;
   color: 	#3B2416;
 }
+/*end home page*/
 
-
-<<<<<<< HEAD
-.blogimages {
-  width: 100%;
-  margin: auto;
-  display: block;
-}
-
-.smallblogimage2 {
-  width: 40%;
-  margin-left: 0;
-  display: block;
-}
-.smallblogimage {
-  width: 40%;
-  margin-left: 0;
-  display: block;
-}
-.smallblogimage3 { /*photo of michael the metalworker*/
-  width: 80%;
-  height: auto;
-  margin: 5px;
-  display: block;
-}
-
-.centerblog {
-  margin: auto;
-  width: 90%;
-  text-decoration: none;
-}
-
-/*end blog media query styles */
-
-/*events MQ styles */
-TABLE {
-  width: 75%;
-}
-
-
-/*end events MQ styles */
-
-
+/* footer ----------------*/
 #footer {
   color: white;
   background-color: #0F132E;
@@ -878,11 +757,8 @@ TABLE {
     width: 100vw;
     margin: auto;
 }
-=======
->>>>>>> origin/master
 
-
-/*Shop*/
+/*Shop -----------------------*/
 
 .shopbanner {
   display: flex;
@@ -909,6 +785,24 @@ TABLE {
   width: 80% auto;
   padding: 30px;
 }
+.shopbanner {
+  flex-flow: row wrap;
+  justify-content: space-around;
+  background: #0F132E;
+}
+
+.shopbanner a {
+  border: none;
+}
+
+.photoshop {
+  width: 100vw;
+
+}
+
+.shopbanner a:hover {
+  background: white;
+}
 
 img {
   display: flex;
@@ -917,7 +811,7 @@ img {
   width: 30%;
   padding: 30px;
 }
-/*beer*/
+/*beer ------------------------*/
 
 #beeers {
   padding-top: 0;
@@ -952,58 +846,5 @@ img {
     width:17%;
     padding: 5px;
   } /*end beer pages stuff*/
-
-} /*end media query*/
-
-  /*----------is this media query redundant?------------*/
-@media and all (min-width: 800px) {
-
-  .shopbanner {
-    flex-flow: row wrap;
-    justify-content: space-around;
-    background: #0F132E;
-  }
-
-  .shopbanner a {
-    border: none;
-  }
-
-  .photoshop {
-    width: 100vw;
-
-  }
-
-  .shopbanner a:hover {
-    background: white;
-  }
-
-  aside {
-    flex: 1 auto;
-  }
-
-  .aside-1 {
-    order: -1;
-  }
-
-  .aside-2 {
-    order: 2;
-  }
-
-  .aside-3 {
-    order: 4;
-  }
-
-  .aside-4 {
-    order: 6;
-  }
-
-  article {
-          display: flex;
-          flex-flow: row;
-          flex-wrap: wrap;
-      }
-
-
-
 
 } /*end query*/
