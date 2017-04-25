@@ -337,6 +337,11 @@ a:link, a:visited {
 /*blog stuff*/
 /*brewers*/
 /*contact*/
+/*events*/
+/*footer*/
+/*homepage*/
+/*shop*/
+/*beers*/
 
 @media all and (min-width:800px) {
 
@@ -493,7 +498,7 @@ TABLE {
 }
 
 
-
+/* footer ------------*/
 #footer {
   color: white;
   background-color: #0F132E;
@@ -503,48 +508,11 @@ TABLE {
   font-size: 10px;
     width: 100vw;
     margin: auto;
-}
+} /*end footer*/
 
 
 
-
-<<<<<<< Updated upstream
-/*brewers */
-
-.brew{
-  width: 80%;
-
-}
-
-#brewers1{
-  row: wrap;
-  display: flex;
-}
-
-
-#brewers2 {
-  flex: 50%;
-
-}
-/* end brewers */
-
-/* contact */
-
-#conact1 {
-  row: wrap;
-  display: flex;
-
-}
-
-#contact2 {
-  flex: 50%
-}
-
-
-/* end media query tag */
-}
-
-/*home page hover effects*/
+/*-------------home page hover effects*/
 
 .uno {
     position: relative;
@@ -603,17 +571,6 @@ TABLE {
 }
 /*end home page*/
 
-/* footer ----------------*/
-#footer {
-  color: white;
-  background-color: #0F132E;
-  font-family: 'Playfair Display', 'Times New Roman', serif;
-  font-weight: 100;
-  text-align: center;
-  font-size: 10px;
-    width: 100vw;
-    margin: auto;
-}
 
 /*Shop -----------------------*/
 
@@ -668,7 +625,9 @@ img {
   margin: 0;
   width: 30%;
   padding: 30px;
-}
+}/*endshop*/
+
+
 /*beer ------------------------*/
 
 #beeers {
