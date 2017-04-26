@@ -506,7 +506,7 @@ a:link, a:visited {
 #brewers2 {
   flex: 50%;
 }
-
+/*show/hide button styles*/
 #panel, #flip {
     padding: 5px;
     text-align: center;
