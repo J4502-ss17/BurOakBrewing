@@ -242,6 +242,18 @@ a:link, a:visited {
   text-decoration: none;
 }
 
+.beer-about-pic {
+    width: 100%;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+}
+
+.handle-pic {
+  width: 75%;
+  margin: auto;
+  padding: 0;
+}
 /*Rent the Brewery----------------*/
 
 .rent {
@@ -695,13 +707,7 @@ TABLE {
   background: white;
 }
 
-img {
-  display: flex;
-  border: none;
-  margin: 0;
-  width: 30%;
-  padding: 30px;
-}/*endshop*/
+/*endshop*/
 
 
 /*beer ------------------------*/
@@ -739,5 +745,39 @@ img {
     width:17%;
     padding: 5px;
   } /*end beer pages stuff*/
+
+  /*beer pages --------------*/
+
+  .beer-about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100vw;
+  }
+  .beer-about-pic {
+    flex: 1;
+  }
+
+  .beer-about-description, p {
+    flex: 2;
+    text-indent: 0px;
+    padding: 10px;
+    padding-left: 15px;
+    color: black;
+  }
+  .handle-pic {
+    width: 100%;
+  }
+  .otherbeers {
+    display: inline-block;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+  }
+
+  .makemesmall {
+    width: 12%;
+    height: auto;
+  }
 
 } /*end query*/
