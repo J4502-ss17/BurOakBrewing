@@ -319,12 +319,22 @@ a:link, a:visited {
 }
 
 .w3-display-container {
-  width: 80% auto;
-  margin: 0 auto;
+  margin: 0;
+  width: 100vw;
 }
 
 .mySlides {
   width: 100%;
+  padding: 0;
+}
+
+.slider {
+  background-color: #E8A713;
+  border: none;
+  padding: 15px 32px;
+  position: relative;
+  top: -50px;
+  border: 1px solid black;
 }
 
 /*beers mobile*/
@@ -342,6 +352,11 @@ a:link, a:visited {
   text-align: center;
 }
 
+.wrapper {
+  display: flex;
+  flex: 1 auto;
+  margin: 0;
+}
 
 /*-----------above this is mobile and general css-------------*/
 
@@ -401,11 +416,17 @@ a:link, a:visited {
 
 /*blog-------------------*/
 
- .blogarticle {
+ .blogarticle-1 {
    flex: 1 50%;
    width: 50%;
  }
-
+ .blogarticle-2 {
+   flex: 1 50%;
+   width: 50%;
+ }
+.blog-color{
+  background: #FDFBE4;
+}
 
 #fitme {
   width: 100%;
@@ -530,6 +551,11 @@ TABLE {
 
 /*-------------home page hover effects*/
 
+.home-page-thing {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+}
 .uno {
     position: relative;
     width: 50%;
@@ -647,13 +673,10 @@ img {
 /*beer ------------------------*/
 
 .beeers {
-  padding-top: 0;
-  margin-top: 0;
-  height: 550px;
-  width: 100%;
+  display: block;
   background-image: url("images/bgbeers2.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   }
   #beeer-head {
     font-size: 1.9em;
@@ -673,6 +696,9 @@ img {
   #beeer-body {
     align-items: center;
     text-align: center;
+    padding-bottom: 14px;
+    padding-top: 15px;
+    margin-top: 10px;
   }
   .beeer-pic {
     display: inline-block;
