@@ -160,13 +160,20 @@ nav a {
 nav ul {
     display: none;
 }
-
 .littletree {
   width: 35px;
   height: 35px;
   position: fixed;
   float: right;
-  margin-left: 47%;
+  margin-left: 86%;
+}
+.littletree2 {
+  width: auto;
+  height: 30px;
+  margin-left: 45%;
+  margin-top: 5px;
+  float: right;
+  position: fixed;
 }
 /*home*/
 
@@ -449,6 +456,22 @@ a:link, a:visited {
         display: flex;
         flex-flow: row;
         flex-wrap: wrap;
+      }
+
+      .littletree {
+        width: 35px;
+        height: 35px;
+        position: fixed;
+        float: right;
+        margin-left: 55%;
+      }
+      .littletree2 {
+        width: auto;
+        height: 30px;
+        margin-left: 44%;
+        margin-top: 5px;
+        float: right;
+        position: fixed;
       }
 
 /*blog-------------------*/
@@ -787,20 +810,5 @@ TABLE {
     height: auto;
   }
 
-  .littletree {
-    width: 35px;
-    height: 35px;
-    position: fixed;
-    float: right;
-    margin-left: 54%;
-  }
-  .littletree2 {
-    width: auto;
-    height: 30px;
-    margin-left: 45%;
-    margin-top: 5px;
-    float: right;
-    position: fixed;
-  }
 
 } /*end query*/
