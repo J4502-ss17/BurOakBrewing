@@ -161,6 +161,13 @@ nav ul {
     display: none;
 }
 
+.littletree {
+  width: 35px;
+  height: 35px;
+  position: fixed;
+  float: right;
+  margin-left: 47%;
+}
 /*home*/
 
 .fullwidth {
@@ -778,6 +785,22 @@ TABLE {
   .makemesmall {
     width: 12%;
     height: auto;
+  }
+
+  .littletree {
+    width: 35px;
+    height: 35px;
+    position: fixed;
+    float: right;
+    margin-left: 54%;
+  }
+  .littletree2 {
+    width: auto;
+    height: 30px;
+    margin-left: 45%;
+    margin-top: 5px;
+    float: right;
+    position: fixed;
   }
 
 } /*end query*/

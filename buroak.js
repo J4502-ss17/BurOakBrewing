@@ -13,6 +13,21 @@ $(document).ready(function() {
 	});//end resize
 });//end ready
 
+//show hide tree
+$(function(){
+					 $('.menu-trigger').click(function(){
+							 $('.littletree').toggle();
+					 });
+			 })
+
+//show hide logo
+$(function(){
+					 $('.menu-trigger').click(function(){
+							 $('.littletree2').toggle();
+					 });
+			 })
+
+
 
 //test for photo gallery
 var slideIndex = 1;
