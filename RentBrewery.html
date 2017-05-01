@@ -66,46 +66,32 @@
 <div id="rcorners2">
 
 
-	<form name="testForm" action="assignments.html" method="get">
+	<form>
 	      <h1>Contact Us</h1>
-	      <p><label for="name">Your name:</label><br>
-	<input type="text" id="name" required="required" name="name" value="" /></p>
+<p>
+		First name:  <input type="text" name="first_name" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		Phone:  <input type="text" name="last_name" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		Email:  <input type="text" name="email_address" /> </p>
 
-	        <p><label for="name">Your email:</label><br>
-	      <input type="text" id="name" required="required" name="name" value="" /></p>
+	      <h1>Event Information:</h1>
+				<p> Type of Event: <input type="text" name="event_type" /><br><br>
+				 		Requested Event Date: <input type="text" name="event_type" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						Estimated Attendance:  <input type="text" name="attendance" /> <br><br>
+						Event Start Time: <input type="text" name="end_time" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						Event End Time: <input type="text" name="start_time" /><br><br>
+				</p><br><br>
 
-	      <p><label for="name">Your phone number:</label><br>
-	    <input type="text" id="name" required="required" name="name" value="" /></p>
-
-	      <p><label for="level">Event Information:</label>
-				<p><label for="name">Type of Event:</label><br>
-			<input type="text" id="name" required="required" name="name" value="" /></p>
-				<p><label for="name">Requested Event Date:</label><br>
-			<input type="text" id="name" required="required" name="name" value="" /></p>
-				<p><label for="name">Estimated Attendance:</label><br>
-			<input type="text" id="name" required="required" name="name" value="" /></p>
-				<p><label for="name">Event start time:</label><br>
-			<input type="text" id="name" required="required" name="name" value="" /></p>
-				<p><label for="name">Event End Time:</label><br>
-			<input type="text" id="name" required="required" name="name" value="" /></p>
-	      <p><label for="radio">Space Requested:</label></p>
-	      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" required="required" name="radio1" value="Choice 1" id="radio" /> Taproom Only </p>
-	      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" required="required" name="radio1" value="Choice 2" /> Brewery Only </p>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" required="required"	name="radio1"	value="Choice 3" /> Taproom and Brewery </p><br>
+	      <p>Space Requested:</p>
+	      <input type="radio" required="required" name="radio1" value="Choice 1" id="radio" /> Taproom Only </p>
+				<input type="radio" required="required" name="radio1" value="Choice 2" /> Brewery Only </p>
+				<input type="radio" required="required"	name="radio1"	value="Choice 3" /> Taproom and Brewery </p><br>
 	      <p><button type="submit" class="button">Submit</button></p>
 
-	</div>
 	  </form>
+
 </div> <!--wrapper-->
 <br><br>
 
-<div id="social">
-	<br>
-<img class="social" src="images/icon_email.svg" alt="email icon">
-<img class="social" src="images/icon_facebook.svg" alt="facebook icon">
-<img class="social" src="images/icon_twitter.svg" alt="twitter icon">
-<img class="social" src="images/icon_instagram.svg" alt="insta icon">
-</div>
 
 <script>
 var slideIndex = 1;
@@ -127,9 +113,18 @@ x[slideIndex-1].style.display = "block";
 }
 </script>
 
+
+<div id="social">
+
+	<br>
+<img class="social" src="images/icon_email.svg" alt="email icon">
+<img class="social" src="images/icon_facebook.svg" alt="facebook icon">
+<img class="social" src="images/icon_twitter.svg" alt="twitter icon">
+<img class="social" src="images/icon_instagram.svg" alt="insta icon">
 </div>
 
-<p id="footer">Content copyright &copy; 2017 </p>
+<div id="bg">
+<p id="footer">&copy; Bur Oak Brewing Company 2017 </p></div>
 
 
 </body>
