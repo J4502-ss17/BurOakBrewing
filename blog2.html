@@ -10,6 +10,13 @@
 
 		<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 		<script src="buroak.js" type="text/javascript"></script>
+		<script>
+		$(document).ready(function(){
+				$("#flip").click(function(){
+						$("#panel").slideToggle("slow");
+				});
+		});
+		</script>
 
 
 </head>
@@ -79,6 +86,10 @@
 				<p id="smallmargins">Craft beer will always be our favorite summertime drink, but sometimes it’s fun to change things up! Any party can offer the usual drinks, but we’re here to take yours to the next level. We’ve crafted our very own cocktail recipe and the perfect summer sangria, both of which pair the tangy flavor of orange and the sweet taste of berries. Using our summer brew Lily Ale as a base, both of these drinks have the potential to make any gathering you’re hosting a hit with all of your guests. We’re loving these new recipes, so let us know if you are too!</p>
 				<p id="smallmargins"><a class="readmore" href="cocktailsblog.html">Read More</a></p>
 
+<!-- add see more here -->
+<div id="flip"><p> SEE MORE BLOGS </div>
+
+<div id="panel">
 
 				<h2 class="heroheadline"><a class ="blogheadline" href="saisonblog.html">The Secrets of the Saison: The Original Summer Ale</a></h2>
 				<p class="posteddate">July 11, 2016</p>
@@ -113,6 +124,7 @@
 				<img class="smallblogimage2" src="images/blog/asian_bbq.jpg" alt="Asian Barbecue Burger" title="Asian Barbecue Burger"/>
 				<p id="smallmargins">Follow this recipe to learn how to grill up an asian barbecue burger.</p>
 				<p id="smallmargins"><a class="readmore" href="asianbbqburgerblog.html">Read More</a></p>
+</div> <!-- end panel div -->
 </div> <!-- centerblog div end -->
 </div> <!-- end blog flex article -->
 
