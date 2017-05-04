@@ -560,7 +560,7 @@ a.readmore:visited, a.blogheadline:hover {
     margin-left: 12%;
   }
   #herop {
-  margin-left: 12%;
+  margin-left: 0;
   }
   TABLE {
     width: 75%;
@@ -608,12 +608,6 @@ a.readmore:visited, a.blogheadline:hover {
   display: flex;
 }
 
-.heropage {
-  margin-left: 12%;
-}
-#herop {
-margin-left: 12%;
-}
 
 #contact2 {
   flex: 50%;
