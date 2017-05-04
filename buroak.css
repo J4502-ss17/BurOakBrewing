@@ -398,6 +398,23 @@ a:link, a:visited {
   width: 70%;
 }
 
+/*blog styles. please don't delete */
+
+a.blogheadline:link, a.blogheadline:active {
+  color: #5C5345;
+}
+a.blogheadline:visited, a.blogheadline:hover {
+  color: #5C5345;
+}
+a.readmore:link, a.blogheadline:active {
+  color: #5C5345;
+}
+a.readmore:visited, a.blogheadline:hover {
+  color: #5C5345;
+}
+
+
+
 /*-----------above this is mobile and general css-------------*/
 
 
