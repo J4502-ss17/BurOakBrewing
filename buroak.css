@@ -436,7 +436,10 @@ a.readmore:visited, a.blogheadline:hover {
 #bold {
   font-weight: bold;
 }
+TD {
+  border-bottom: 1px solid black;
 
+}
 /*-----------above this is mobile and general css-------------*/
 
 
