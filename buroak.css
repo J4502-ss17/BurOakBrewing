@@ -417,7 +417,12 @@ a.readmore:visited, a.blogheadline:hover {
   text-align: center;
 }
 
-
+.centerblog2 {
+  margin: auto;
+  width: 100%;
+  text-decoration: none;
+  background-color: #FFFDDE;
+}
 
 /*-----------above this is mobile and general css-------------*/
 
@@ -555,6 +560,12 @@ a.readmore:visited, a.blogheadline:hover {
   width: 90%;
   text-decoration: none;
 }
+.centerblog2 {
+  margin: auto;
+  width: 50%;
+  text-decoration: none;
+  background-color: #FFFDDE;
+}
 
 
   .heropage {
@@ -625,6 +636,7 @@ a.readmore:visited, a.blogheadline:hover {
 TABLE {
   width: 55%;
 }
+
 
 
 /* footer ------------*/
