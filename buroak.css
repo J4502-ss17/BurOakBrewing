@@ -417,11 +417,21 @@ a.readmore:visited, a.blogheadline:hover {
   text-align: center;
 }
 
+/*event styles. please don't delete */
 .centerblog2 {
   margin: auto;
   width: 100%;
   text-decoration: none;
   background-color: #FFFDDE;
+}
+#month {
+  text-align: center;
+}
+#month2 {
+  text-align: center;
+}
+#month3 {
+  text-align: center;
 }
 
 /*-----------above this is mobile and general css-------------*/
