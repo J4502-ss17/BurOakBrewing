@@ -433,6 +433,9 @@ a.readmore:visited, a.blogheadline:hover {
 #month3 {
   text-align: center;
 }
+#bold {
+  font-weight: bold;
+}
 
 /*-----------above this is mobile and general css-------------*/
 
