@@ -359,6 +359,8 @@ a:link, a:visited {
   border: 1px solid black;
 }
 
+
+
 /*beers mobile*/
 
 #beeer-head h1 {
@@ -754,32 +756,43 @@ TABLE {
   border-bottom: none;
 }
 
-.photoshop {
+.merch {
   display: flex;
-  flex-wrap: nowrap;
-  flex-wrap: wrap;
-  margin: 0;
-  width: 80% auto;
+  flex-flow: column;
+}
+
+.photoshop {
+  width: 300px;
+  height: auto;
   padding: 30px;
 }
+
 .shopbanner {
   flex-flow: row wrap;
   justify-content: space-around;
   background: #0F132E;
 }
 
+.shopcaption {
+    color: black;
+    font-family: 'Noto Sans', Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 0.8em;
+    margin-top: 0;
+    padding-top: -10px;
+}
+
+
 .shopbanner a {
   border: none;
 }
 
-.photoshop {
-  width: 100vw;
-
-}
 
 .shopbanner a:hover {
   background: white;
 }
+
+
 
 /*endshop*/
 
