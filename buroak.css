@@ -60,7 +60,7 @@ h3, h4 {
 #footer {
   color: white;
   background-color: #0F132E;
-  font-family: 'Playfair Display', 'Times New Roman', serif;
+  font-family: 'Noto Sans', Helvetica, sans-serif;
   font-weight: 100;
   text-align: center;
   padding: 8px 16px;
@@ -117,6 +117,7 @@ nav ul li {
     display: block;
       text-align: center;
       width: 90vw;
+      font-family: 'Noto Sans', Helvetica, sans-serif;
 }
 
 nav a {
@@ -125,6 +126,7 @@ nav a {
     text-decoration: none;
     list-style: none;
     padding: 10px 20px;
+    font-family: 'Noto Sans', Helvetica, sans-serif;
 }
 
 #nav a:link, #nav a:visited {
@@ -441,6 +443,19 @@ a.readmore:visited, a.blogheadline:hover {
   text-align: center;
 }
 
+.blogarticle-1 {
+  width: 100vw;
+  padding: 2px;
+}
+
+.blogimages {
+  width: 100vw;
+}
+#gold {
+  height: 50%;
+  width: 50%;
+}
+
 /*event styles. please don't delete */
 .centerblog2 {
   margin: auto;
@@ -476,7 +491,7 @@ a.readmore:visited, a.blogheadline:hover {
 /*brewers*/
 /*contact*/
 /*events*/
-/*footer*/
+/**/
 /*homepage*/
 /*shop*/
 /*beers*/
@@ -510,7 +525,7 @@ a.readmore:visited, a.blogheadline:hover {
   		}
 
 
-  		footer {
+  		 {
   				order: 3;
   		}
 
@@ -679,11 +694,11 @@ TABLE {
 
 
 
-/* footer ------------*/
-#footer {
+/*  ------------*/
+# {
   color: white;
   background-color: #0F132E;
-  font-family: 'Playfair Display', 'Times New Roman', serif;
+  font-family: 'Noto Sans', Helvetica, sans-serif;
   font-weight: 100;
   text-align: center;
   font-size: 10px;
