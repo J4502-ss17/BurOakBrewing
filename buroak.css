@@ -397,6 +397,13 @@ a:link, a:visited {
   margin: 0;
 }
 
+#caption {
+  font-size: 1.5em;
+  font-family: 'Playfair Display', serif;
+  color: white;
+  font-weight: bold;
+  }
+
 /*show/hide button styles*/
 #panel, #flip {
     padding: 5px;
@@ -896,6 +903,8 @@ TABLE {
     width: 12%;
     height: auto;
   }
-
+  #caption {
+    display: none;
+    }
 
 } /*end query*/
