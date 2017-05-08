@@ -359,6 +359,21 @@ a:link, a:visited {
   border: 1px solid black;
 }
 
+/*shop mobile*/
+.shopbanner {
+  list-style: none;
+  margin: 0;
+  background: #0F132E;
+  padding: 0;
+  display: flex;
+  flex-flow: row;
+  text-align: center;
+}
+
+.shopbanner a:hover {
+  background: #5C5345;
+}
+
 
 
 /*beers mobile*/
@@ -767,6 +782,17 @@ TABLE {
   padding: 30px;
 }
 
+#merch .text {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  visibility: hidden;
+}
+
+#merch:hover .text {
+  visibility: visible;
+}
+
 .shopbanner {
   flex-flow: row wrap;
   justify-content: space-around;
@@ -789,7 +815,11 @@ TABLE {
 
 
 .shopbanner a:hover {
-  background: white;
+  background: #5C5345;
+}
+
+.searchbar {
+  margin-right: auto;
 }
 
 
