@@ -479,6 +479,15 @@ a.readmore:visited, a.blogheadline:hover {
   border-bottom: 1px solid black;
 
 } */
+
+
+/*Contact page */
+
+#shrinkhop {
+  width: 100px;
+  height: auto;
+}
+
 /*-----------above this is mobile and general css-------------*/
 
 
@@ -656,12 +665,44 @@ a.readmore:visited, a.blogheadline:hover {
     vertical-align: middle;
 }
 
-#panel {
+#panel{
     padding: 10px;
     display: none;
 }
 
 #flip {
+  background: #E8A713;
+  width: 70%;
+}
+
+#panel2, #flip2 {
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#panel2 {
+    padding: 10px;
+    display: none;
+}
+
+#flip2 {
+  background: #E8A713;
+  width: 70%;
+}
+
+#panel3, #flip3 {
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#panel3 {
+    padding: 10px;
+    display: none;
+}
+
+#flip3 {
   background: #E8A713;
   width: 70%;
 }
