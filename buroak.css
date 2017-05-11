@@ -397,6 +397,7 @@ a:link, a:visited {
   display: flex;
   flex: 1 auto;
   margin: 0;
+  overflow: hidden; /*hides heroes overflow in mobile */
 }
 
 #caption {
@@ -443,10 +444,19 @@ a.readmore:visited, a.blogheadline:hover {
   text-align: center;
 }
 
-.blogarticle-1 {
+/*.blogarticle-1 {
+  display: flex;
+  flex-direction: column;
   width: 100vw;
   padding: 2px;
+  position: absolute;
 }
+.blogarticle-2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-top: 3500px;
+} */
 
 .blogimages {
   width: 100vw;
@@ -462,6 +472,9 @@ a.backtoblogs:link, a.backtoblogs:active {
 a.backtoblogs:visited, a.backtoblogs:hover {
   color: #5C5345;
 }
+/*flexbox into colum for blogs*/
+
+/*end blog mobile flex styling */
 
 
 /*event styles. please don't delete */
@@ -639,6 +652,10 @@ a.backtoblogs:visited, a.backtoblogs:hover {
   background-color: #FFFDDE;
 }
 
+
+#smallmargins {
+  margin-right: 10px;
+}
 
   .heropage {
     margin-left: 12%;
