@@ -907,9 +907,13 @@ TABLE {
 }
 
 .searchbar {
-  margin-right: auto;
+  float: right;
 }
 
+.prices {
+  float: right;
+  margin-top: 100px;
+}
 
 
 /*endshop*/
