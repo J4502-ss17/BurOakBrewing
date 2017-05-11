@@ -456,6 +456,14 @@ a.readmore:visited, a.blogheadline:hover {
   width: 50%;
 }
 
+a.backtoblogs:link, a.backtoblogs:active {
+  color: #5C5345;
+}
+a.backtoblogs:visited, a.backtoblogs:hover {
+  color: #5C5345;
+}
+
+
 /*event styles. please don't delete */
 .centerblog2 {
   margin: auto;
